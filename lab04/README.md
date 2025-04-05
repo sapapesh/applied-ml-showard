@@ -74,4 +74,11 @@ print("Case 1: Test RMSE:", mean_squared_error(y1_test, y1_pred_test, squared=Fa
 print("Case 1: Test MAE:", mean_absolute_error(y1_test, y1_pred_test))
 
 Section 5: Compare Alternative Models (Ridge, Elastic Net, Polynomial Regression)
+Regularization adds a penalty to the model’s loss function, discouraging it from using very large weights (coefficients). This makes the model simpler and more likely to generalize well to new data.
+
+In general: 
+If the basic linear regression is overfitting, try Ridge.
+If you want the model to automatically select the most important features, try Lasso.
+If you want a balanced approach, try Elastic Net.
+
 Section 6: Final Thoughts & Insights
