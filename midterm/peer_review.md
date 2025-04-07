@@ -16,3 +16,5 @@ I think that he explained the models clearly.  However, I was surprised to see t
 
 **Reflection Quality (Are insights well thought out?)**
 I think that his insights are well thought out for what he did.  I do think that his conclusion about the decision tree model is a bit premature as he did not include results for more than 1 case.  The dataset performed fairly well overall for all of the models used, so I think it is hard to say that the decision tree model performs the best when only one case was tested on it.
+
+I really enjoyed Aaron's presentation, and he included a lot of details that demonstrate and describe what he is intending to show with his analysis. I found his analysis had some humor in it, and he did a good job in ensuring that his audience would be engaged and informed.
