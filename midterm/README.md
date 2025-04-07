@@ -7,7 +7,7 @@ Date: April 6, 2025
 
 **Link to Notebook**  https://github.com/sapapesh/applied-ml-showard/blob/main/midterm/classification_sahoward.ipynb
 
-**Link to Peer Review** 
+**Link to Peer Review** https://github.com/sapapesh/applied-ml-showard/blob/main/midterm/peer_review.md
 
 # Create a virtual environment and activate the .venv
 Create a virtual environment py -m venv .venv
@@ -36,4 +36,14 @@ from sklearn.metrics import accuracy_score
 The data set can be found at [UCI Mushroom Dataset](https://archive.ics.uci.edu/dataset/73/mushroom).
 Upon reviewing the data, the variable "stalk-root" was missing data so I dropped that from our dataset as we still had 22 other variables avaiable to be able to review.
 
+# Section 1. Import and Inspect the Data
 
+# Section 2. Data Exploration and Preparation
+
+# Section 3. Feature Selection and Justification
+
+# Section 4. Train a Model - Decision Tree
+
+# Section 5. Try Alternatives - Linear Regression and Logistic Regression
+
+# Section 6. Final Thoughts & Insights
