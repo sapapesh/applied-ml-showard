@@ -1,4 +1,8 @@
+# Sarah's Poisonous Mushroom Data Set
 
+**Author:** Sarah Howard 
+**Date:** April 6, 2025
+**Objective:** Training a classification model to determine which mushrooms are poisonous or edible.
 # Create a virtual environment and activate the .venv
 Create a virtual environment py -m venv .venv
 Activate virtual environment .venv\Scripts\activate
