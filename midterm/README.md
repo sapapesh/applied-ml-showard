@@ -1,8 +1,14 @@
-# Sarah's Poisonous Mushroom Data Set
+**Sarah's Poisonous Mushroom Data Set**
 
-**Author:** Sarah Howard 
-**Date:** April 6, 2025
-**Objective:** Training a classification model to determine which mushrooms are poisonous or edible.
+Author: Sarah Howard 
+Date: April 6, 2025
+
+**Objective:** An analysis of the UCI Mushroom dataset using the following models to determine if a variable can predict if a mushroom is poisonous or edible: decision tree, linear regression, and logistic regression.
+
+**Link to Notebook**  https://github.com/sapapesh/applied-ml-showard/blob/main/midterm/classification_sahoward.ipynb
+
+**Link to Peer Review** 
+
 # Create a virtual environment and activate the .venv
 Create a virtual environment py -m venv .venv
 Activate virtual environment .venv\Scripts\activate
@@ -12,11 +18,19 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
-
+from pandas.plotting import scatter_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression, Ridge, ElasticNet
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.preprocessing import LabelEncoder
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.metrics import confusion_matrix
+from sklearn.tree import plot_tree
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
 
 # Load the Data set
 The data set can be found at [UCI Mushroom Dataset](https://archive.ics.uci.edu/dataset/73/mushroom).
