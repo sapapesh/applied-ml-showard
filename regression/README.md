@@ -6,8 +6,10 @@ Date: April 20, 2025
 **Objective:** An analysis of the UCI Auto MPG dataset using regression to predict fuel efficiency.
 
 **Link to Notebook**  
+https://github.com/sapapesh/applied-ml-showard/blob/main/regression/regression_sahoward.ipynb
 
 **Link to Peer Review** 
+https://github.com/sapapesh/applied-ml-showard/blob/main/regression/peer_review.md
 
 # Create a virtual environment and activate the .venv
 Create a virtual environment py -m venv .venv
@@ -18,19 +20,17 @@ import pandas as pd
 import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
+
 from pandas.plotting import scatter_matrix
+from sklearn.preprocessing import LabelEncoder, StandardScaler, PolynomialFeatures
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression, Ridge, ElasticNet
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-from sklearn.preprocessing import LabelEncoder
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import classification_report, confusion_matrix
-from sklearn.model_selection import StratifiedShuffleSplit
-from sklearn.metrics import confusion_matrix
-from sklearn.tree import plot_tree
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, silhouette_score
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
+from sklearn.cluster import KMeans
+from sklearn.pipeline import Pipeline
+from sklearn.impute import SimpleImputer
 
 # Load the Data set
 The data set can be found at [UCI Auto-mpg dataset](https://www.kaggle.com/datasets/uciml/autompg-dataset/data).
