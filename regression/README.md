@@ -39,6 +39,9 @@ The data set can be found at [UCI Auto-mpg dataset](https://www.kaggle.com/datas
 Loaded the data, checked for missing values, and viewed summary statistics
 
 # Section 2. Data Exploration and Preparation
+2.1 Scatter matrixes, histograms, boxplots, count plots
+2.2 Removed the outliers, encode the categorical feature
+2.3 Created a new feature
 
 # Section 3. Feature Selection and Justification
 
