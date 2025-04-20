@@ -40,10 +40,12 @@ Loaded the data, checked for missing values, and viewed summary statistics
 
 # Section 2. Data Exploration and Preparation
 2.1 Scatter matrixes, histograms, boxplots, count plots
-2.2 Removed the outliers, encode the categorical feature
-2.3 Created a new feature
+2.2 Remove the outliers, encode the categorical feature
+2.3 Create a new feature
 
 # Section 3. Feature Selection and Justification
+3.1 Choose features, select target variable
+3.2 Define X and y
 
 # Section 4. Train a Model (Linear Regression)
 
